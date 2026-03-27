@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@GetMapping("/") 
     public String hello() {
-        return "<h1>Docker est en marche ! 🐳</h1><p>Le projet Spring Boot repond bien.</p>";
+        return "<h1>Docker est en marche et marche bien ! 🐳</h1><p>Le projet Spring Boot repond bien.</p>";
     }
 }
