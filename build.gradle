@@ -46,8 +46,8 @@ tasks.named('jacocoTestReport') {
 
 sonar {
     properties {
-        property "sonar.projectKey", "ilaxxi"
-        property "sonar.organization", "ilaXXI"
+        property "sonar.projectKey", "ilaXXI_mon-app-java"
+        property "sonar.organization", "ilaxxi"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.sources", "src/main/java"
         property "sonar.tests", "src/test/java"
