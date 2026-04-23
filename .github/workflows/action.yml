@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: Make gradlew executable
-      - run: chmod +x gradlew
+        run: chmod +x gradlew
 
       - name: Checkout code
         uses: actions/checkout@v4
@@ -62,7 +62,7 @@ jobs:
 
     steps:
       - name: Make gradlew executable
-      - run: chmod +x gradlew
+        run: chmod +x gradlew
 
       - name: Checkout code
         uses: actions/checkout@v4
